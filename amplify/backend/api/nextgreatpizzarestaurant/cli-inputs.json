@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nextgreatpizzarestaurant",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/tmp/amplify-3dd63bdd-5fc2-46d8-b3f5-f51f4c090a35/amplify/backend/api/nextgreatpizzarestaurant/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
